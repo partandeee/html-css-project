@@ -75,7 +75,17 @@ body {
     font-size: 20px;
     margin-top: 20px;
 }
-
+@media screen and (max-width: 1620px){
+    .top-content h1{
+        width:50%;
+    }
+}
+@media screen and (max-width: 900px){
+    .top-content p{
+        width:50%;
+        flex-wrap: wrap;
+    }
+}
 .top-content button{
     margin-top: 30px;
     padding: 15px 30px;
